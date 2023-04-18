@@ -52,13 +52,13 @@ block1.fill(white)
 block2.fill(white)
 block3.fill(white)
 
-extrablock1 = pygame.image.load('Priest.webp')
+extrablock1 = pygame.image.load('Priest.png')
 extrablock1rect = extrablock1.get_rect
 
-extrablock2 = pygame.image.load('Vampir.webp')      
+extrablock2 = pygame.image.load('Vampir.png')      
 extrablock2rect = extrablock2.get_rect
 
-extrablock3 = pygame.image.load('Rogue.webp')
+extrablock3 = pygame.image.load('Rogue.png')
 extrablock3rect = extrablock3.get_rect
 
 # z = pygame.image.load('photozero.jpg')
