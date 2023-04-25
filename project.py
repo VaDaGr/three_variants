@@ -91,22 +91,19 @@ while 1:
     elif clickedBlock == True:
         if activeBlock == 1:
             mainScreen.fill(black)
-            mainScreen.blit(extrablock1, extrablock1rect)
-            extrablock1.x = 1000
-            extrablock1.y = 500
-            # sc_text = fes.render('Всё началось давным-давно', 1 , white)
-            # mainScreen.blit(sc_text, (0, 0))
+            mainScreen.blit(extrablock1, (1000, 500))
+            sc_text = fes.render('Всё началось давным-давно', 1 , white)
+            mainScreen.blit(sc_text, (0, 0))
         if activeBlock == 2:
             mainScreen.fill(black)
-            mainScreen.blit(extrablock2, extrablock2rect)
-            extrablock2rect.x = 1000
-            extrablock2rect.y = 500
+            mainScreen.blit(extrablock2, (1000, 500))
+            sc_text = fes.render('Всё началось давным-давно', 1 , white)
+            mainScreen.blit(sc_text, (0, 0))
         if activeBlock == 3:
             mainScreen.fill(black)
-            mainScreen.blit(extrablock3, extrablock3rect)
-            extrablock3rect.x = 1000
-            extrablock3rect.y = 500
-
+            mainScreen.blit(extrablock3, (1000, 500))
+            sc_text = fes.render('Всё началось давным-давно', 1 , white)
+            mainScreen.blit(sc_text, (0, 0))
 
     pygame.display.flip()
 
